@@ -1,4 +1,4 @@
-# odinproject
+<a herf="http://www.theodinproject.com/ruby-programming/building-blocks?ref=lnav">Odin Project - Learn Ruby Programming</a>
 
 From Wikipedia:
 
@@ -11,8 +11,8 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 
     > caesar_cipher("What a string!", 5)
     => "Bmfy f xywnsl!"
-Quick Tips:
+Quick Tips:<br><br>
 
-You will need to remember how to convert a string into a number.
-Don't forget to wrap from z to a.
+You will need to remember how to convert a string into a number.<br>
+Don't forget to wrap from z to a.<br>
 Don't forget to keep the same case.
