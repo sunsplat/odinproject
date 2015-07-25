@@ -1,14 +1,14 @@
 puts "Word please: "
-text = gets.chomp
+text = gets.chomp.downcase
 
-puts "Number 1-5 please: "
-num = gets.chomp
+puts "Number 1-10 please: "
+num = gets.chomp.to_i
+
 
 def caesar_cipher(text, num)
-	letters = text.chars.to_a
-	letters.each { |word| }
-	puts 
+	alphabet = [*('a'..'z')]
+	text.tr('a-z', alphabet[n..n+26].join)
 
+end
 
-
-caesar_cipher("method", 5)
+print caesar_cipher(text, num)
